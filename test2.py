@@ -179,6 +179,7 @@ def main() -> None:
     # Set maximum number of questions
     MAX_QUESTIONS = 10
 
+# this is the 1st commit
     if not st.session_state.quiz_completed:
         if st.session_state.question_count < MAX_QUESTIONS:
             # Display progress
